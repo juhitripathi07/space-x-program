@@ -1,0 +1,19 @@
+
+  <div class="card" *ngFor="let t of model;let indexOfelement=index;">
+    <div class="inside-card">
+      <img src="{{t.links.mission_patch}}" alt="John" style="width:100%">
+      <p class= "name"><b>{{t.mission_name}} # {{indexOfelement+1}}</b></p>
+      <p><b>Mission Id's</b></p>
+      <p><b>Launch year:</b> {{t.launch_year}}</p>
+      <p><b>Successfull Launch:</b> {{t.launch_year}}</p>
+      <p><b>Successfull Landing:</b> {{t.launch_year}}</p>
+    </div>    
+        <!-- <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-dribbble"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><button>Contact</button></p> -->
+      </div>
+
